@@ -1,0 +1,101 @@
+/* Mypage.css */
+
+/* 공통 스타일 */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #ffffff;
+  }
+  
+  /* 마이페이지 전체 컨테이너 */
+  .mypage-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* 헤더 스타일 */
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background: rgba(129, 201, 117, 0.3);
+  }
+  
+  .header-logo img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .welcome-text {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5bbb4a;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* 마이페이지 타이틀 */
+  .mypage-title {
+    font-weight: 700;
+    font-size: 64px;
+    color: #000000;
+  }
+  
+  .mypage-subtitle {
+    font-size: 24px;
+    color: #828282;
+    margin-bottom: 20px;
+  }
+  
+  /* 히어로 이미지 */
+  .hero-image img {
+    width: 100%;
+    max-width: 508px;
+    border-radius: 8px;
+    background: #f7f7f7;
+  }
+  
+  /* 회원 정보 섹션 */
+  .user-info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .button {
+    padding: 12px;
+    border: none;
+    background-color: #5bbb4a;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* 소셜 아이콘 */
+  .social-icons {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* 기능 버튼 섹션 */
+  .mypage-buttons, .extra-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
